@@ -17,8 +17,8 @@ class PriviousIssueBook {
   late final int bookId;
   late final String returned;
   late final String title;
-  
-  PriviousIssueBook.fromJson(Map<String, dynamic> json){
+
+  PriviousIssueBook.fromJson(Map<String, dynamic> json) {
     isPaid = json['isPaid'];
     issuedDate = json['issued_date'];
     author = json['author'];
